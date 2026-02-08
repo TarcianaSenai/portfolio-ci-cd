@@ -251,7 +251,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 102vw;
   }
 
   .email, .telefone, .linkedin, .instagram{
@@ -264,13 +264,13 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
     cursor: pointer;
   }
 
 
   i {
-    font-size: 40px;
+    font-size: 42px;
     color: #555 ;
   }
 
