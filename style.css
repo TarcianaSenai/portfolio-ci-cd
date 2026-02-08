@@ -20,7 +20,7 @@
   .navbar {
     display: flex;
     justify-content: space-around;
-    gap: 15px;
+    gap: 20px;
     width: 100vw;
   }
 
@@ -39,7 +39,7 @@
   display: flex;
   align-items: center;
   height: 100vh;
-  gap: 60px;
+  gap: 65px;
   width: 100vw;
   background-color: rgb(249, 246, 246);
 
@@ -49,14 +49,14 @@
     align-items: center;
     justify-content: center;
     height: 80vh;
-    gap: 60px;
+    gap: 65px;
     width: 100vw;
   }
 
   .div-nome {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 810px;
     height: 400px;
     justify-content: center;
     font-family: "Poppins", serif;
@@ -93,7 +93,7 @@
 
   .div-sou-tarciana {
     display: flex;
-    gap: 10px;
+    gap: 11px;
   }
 
 }
@@ -127,12 +127,12 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    gap: 8px;
+    gap: 10px;
   }
 
   .pontos {
     display: flex;
-    gap: 7px;
+    gap: 8px;
   }
 
 
@@ -166,7 +166,7 @@
 
   .habilidades li {
     margin-bottom: 12px;
-    font-size: 25px;
+    font-size: 27px;
   }
 
 }
