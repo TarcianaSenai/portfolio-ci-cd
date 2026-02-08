@@ -1,0 +1,23 @@
+name: CI - Validação do Portfólio
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Verificar se index.html existe
+        run: |
+          if [ ! -f index.html ]; then
+            echo "❌ index.html não encontrado"
+            exit 1
+          fi
+
+      - name: Mensagem de sucesso
+        run: echo "✅ CI rodou com sucesso"
